@@ -1,0 +1,47 @@
+{
+  "name": "termify",
+  "version": "1.0.0",
+  "description": "Termify — your music, your terminal. A premium keyboard-driven terminal music streaming client.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "bin": {
+    "termify": "./src/index.js"
+  },
+  "main": "./src/index.js",
+  "files": [
+    "src",
+    "README.md",
+    ".env.example"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "TERMIFY_LOG_LEVEL=debug node src/index.js",
+    "demo": "node src/index.js --demo",
+    "doctor": "node src/index.js --doctor",
+    "test": "node --test --test-reporter=spec",
+    "test:watch": "node --test --watch",
+    "test:dot": "node --test --test-reporter=dot",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write \"src/**/*.js\" \"test/**/*.js\" \"scripts/**/*.js\" \"*.json\" \"*.md\"",
+    "format:check": "prettier --check \"src/**/*.js\" \"test/**/*.js\" \"scripts/**/*.js\"",
+    "verify": "node scripts/verify-startup.js",
+    "check": "npm run lint && npm test && npm run verify"
+  },
+  "dependencies": {
+    "better-sqlite3": "11.10.0",
+    "dotenv": "18.0.0",
+    "ink": "7.1.1",
+    "music-metadata": "11.15.0",
+    "react": "19.3.0"
+  },
+  "devDependencies": {
+    "eslint": "9.39.5",
+    "eslint-plugin-react-hooks": "5.2.0",
+    "globals": "16.5.0",
+    "prettier": "3.6.2"
+  }
+}

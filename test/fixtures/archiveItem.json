@@ -1,0 +1,85 @@
+{
+  "created": 1775783681,
+  "d1": "ia803208.us.archive.org",
+  "dir": "/21/items/demo-concert-1999",
+  "server": "ia803208.us.archive.org",
+  "metadata": {
+    "identifier": "demo-concert-1999",
+    "title": "Demo Band Live at the Example Hall",
+    "creator": "Demo Band",
+    "date": "1999-07-04",
+    "subject": ["Live", "Rock"],
+    "licenseurl": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "mediatype": "audio"
+  },
+  "files": [
+    {
+      "name": "db1999-07-04d1t01.flac",
+      "source": "original",
+      "format": "Flac",
+      "length": "215.47",
+      "title": "Opening",
+      "artist": "Demo Band",
+      "album": "1999-07-04 Example Hall",
+      "track": "1",
+      "size": "30219100"
+    },
+    {
+      "name": "db1999-07-04d1t01.mp3",
+      "source": "derivative",
+      "original": "db1999-07-04d1t01.flac",
+      "format": "VBR MP3",
+      "length": "03:35",
+      "title": "Opening",
+      "artist": "Demo Band",
+      "album": "1999-07-04 Example Hall",
+      "track": "1",
+      "bitrate": "170",
+      "size": "4562122"
+    },
+    {
+      "name": "db1999-07-04d1t02.mp3",
+      "source": "derivative",
+      "original": "db1999-07-04d1t02.flac",
+      "format": "VBR MP3",
+      "length": "04:12",
+      "title": "Second Song",
+      "track": "2",
+      "size": "5300000"
+    },
+    {
+      "name": "db1999-07-04d1t02.flac",
+      "source": "original",
+      "format": "Flac",
+      "length": "252.10",
+      "title": "Second Song",
+      "track": "2",
+      "size": "35000000"
+    },
+    {
+      "name": "03 untitled jam.mp3",
+      "source": "original",
+      "format": "VBR MP3",
+      "length": "07:01",
+      "size": "8800000"
+    },
+    {
+      "name": "db1999-07-04d1t01_spectrogram.png",
+      "source": "derivative",
+      "format": "Spectrogram",
+      "size": "180000"
+    },
+    {
+      "name": "demo-concert-1999_files.xml",
+      "source": "original",
+      "format": "Metadata",
+      "size": "4000"
+    },
+    {
+      "name": "__ia_thumb.jpg",
+      "source": "original",
+      "format": "Item Tile",
+      "size": "12000"
+    }
+  ]
+}
